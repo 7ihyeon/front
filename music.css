@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#a5a1a1, #171820);
+}
+
+.boxer {
+  width: 400px;
+  height: 700px;
+  padding: 20px 0 0 0;
+  background-color: rgba(231, 236, 130, 0.623);
+  border-radius: 15px;
+}
+
+header {
+  padding: 0px 0px 10px 95px;
+  display: flex;
+  margin-left: 0px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header i {
+  color: #3d1b1bc4;
+  font-size: 20px;
+  width: 38%;
+}
+
+header span {
+  color: #3d1b1bc4;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+.song {
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.548);
+}
+
+.song__data {
+  margin-top: 30px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.song__img {
+  height: 100px;
+  width: 100px;
+  background-color: #bccc6046;
+  border: 1px solid white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.song__side {
+  margin-left: 15px;
+}
+
+.song__title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.song__author {
+  font-size: 16px;
+}
+
+.love__button-list {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 15px;
+  color: rgba(48, 22, 23, 0.678);
+}
+
+.love__button-play {
+  padding: 5px 15px;
+  border: 1px solid rgba(119, 98, 99, 0.363);
+  border-bottom-width: 3px;
+  border-radius: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.love__button-play i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.love__button-subsribe {
+  padding: 5px 15px;
+  border: 1px solid rgba(119, 98, 99, 0.363);
+  border-bottom-width: 3px;
+  border-radius: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.love__button-subsribe i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.love__button-download {
+  padding: 5px 15px;
+  border: 1px solid rgba(119, 98, 99, 0.363);
+  border-bottom-width: 3px;
+  border-radius: 30px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+.love__button-download i {
+  font-size: 12px;
+  margin-right: 5px;
+}
+
+.burger-list {
+  list-style: none;
+  padding: 10px 20px;
+}
+
+.burger-list__item {
+  margin-bottom: 10px;
+  display: flex;
+  align-items: center;
+}
+
+.burger-list__img {
+  height: 50px;
+  width: 50px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #ebc45a6e;
+  margin-right: 10px;
+}
+
+.burger-list__title {
+  font-weight: 700;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.burger-list__author {
+  font-weight: 500;
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.527);
+}
